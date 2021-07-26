@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .img {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .img1 {
+            width: 40%;
+            padding: 20px;
+        }
+
+        .btn {
+            display: flex;
+          
+            justify-content: center;
+
+        }
+        #bt{
+            padding: 10px;
+            background-color: royalblue;
+            border: none;
+           border-radius: 200px;
+           color: white;
+           cursor: pointer;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="img">
+        <img src="./card_1.jpg" alt="" class="img1">
+        <img src="./card_2.jpg" alt="" class="img1">
+        <img src="./card_3.jpg" alt="" class="img1">
+    </div>
+    <div class="btn">
+
+        <button onclick="myFunction()" id="bt">Click here to Download</button>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script> -->
+    <script src="./jspdf.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
